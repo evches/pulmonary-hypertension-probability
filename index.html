@@ -40,16 +40,16 @@
   <h2>Калькулятор лёгочной гипертензии</h2>
 
   <label for="capillaryDensity">Плотность капилляров</label>
-  <input type="number" id="capillaryDensity" step="any">
+  <input type="number" id="capillaryDensity" step="any" inputmode="decimal" pattern="[0-9]*">
 
   <label for="regurgitationGradient">Градиент трикуспидальной регургитации</label>
-  <input type="number" id="regurgitationGradient" step="any">
+  <input type="number" id="regurgitationGradient" step="any" inputmode="decimal" pattern="[0-9]*">
 
   <label for="rvToLvRatio">Отношение диаметра ПЖ к ЛЖ</label>
-  <input type="number" id="rvToLvRatio" step="any">
+  <input type="number" id="rvToLvRatio" step="any" inputmode="decimal" pattern="[0-9]*">
 
   <label for="capillaryLoopWidth">Ширина капиллярной петли в её верхушке</label>
-  <input type="number" id="capillaryLoopWidth" step="any">
+  <input type="number" id="capillaryLoopWidth" step="any" inputmode="decimal" pattern="[0-9]*">
 
   <div class="result" id="predictor">Линейный предиктор (Y): —</div>
   <div class="result" id="probability">Вероятность лёгочной гипертензии: —</div>
