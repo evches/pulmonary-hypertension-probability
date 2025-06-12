@@ -49,19 +49,19 @@
   <h2>Калькулятор вероятности легочной гипертензии у пациентов с системной склеродермией</h2>
 
   <label for="capillaryDensity">Плотность капилляров</label>
-  <input type="range" id="capillaryDensity" min="2" max="16" step="1">
+  <input type="number" id="capillaryDensity" inputmode="decimal" pattern="[0-9]*" min="2" max="16" step="any">
   <div class="value-label" id="labelCapillaryDensity"></div>
 
   <label for="regurgitationGradient">Градиент трикуспидальной регургитации</label>
-  <input type="range" id="regurgitationGradient" min="10" max="300" step="5">
+  <input type="number" id="regurgitationGradient" inputmode="decimal" pattern="[0-9]*" min="10" max="300" step="any">
   <div class="value-label" id="labelRegurgitationGradient"></div>
 
   <label for="rvToLvRatio">Отношение диаметров ПЖ к ЛЖ</label>
-  <input type="range" id="rvToLvRatio" min="0.2" max="2.0" step="0.1">
+  <input type="number" id="rvToLvRatio" inputmode="decimal" pattern="[0-9]*" min="0.2" max="2.0" step="any">
   <div class="value-label" id="labelRvToLvRatio"></div>
 
   <label for="capillaryLoopWidth">Ширина капиллярной петли в её верхушке</label>
-  <input type="range" id="capillaryLoopWidth" min="0" max="1" step="0.1">
+  <input type="number" id="capillaryLoopWidth" inputmode="decimal" pattern="[0-9]*" min="0" max="1" step="any">
   <div class="value-label" id="labelCapillaryLoopWidth"></div>
 
   <div class="result" id="predictor">Линейный предиктор (Y): —</div>
